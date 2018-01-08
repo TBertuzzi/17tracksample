@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{EDD1C59E-20DC-449C-83AE-3B3502EE826D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="17trackSample/Track.html">
+    <Files>
+      <File FileName="17trackSample/17trackSamplePage.xaml" Line="7" Column="77" />
+      <File FileName="17trackSample/17trackSamplePage.xaml.cs" Line="19" Column="15" />
+      <File FileName="17trackSample/Track.html" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="17trackSample" expanded="True">
+            <Node name="17trackSample" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="17trackSamplePage.xaml" expanded="True" />
+              <Node name="Track.html" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.17trackSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.40D99ACD-E228-43B0-A09B-818F42CAEF64" />
+  <MonoDevelop.Ide.ItemProperties.17TrackSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.17TrackSample.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

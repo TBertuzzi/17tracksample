@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--O código pode ser colocado na parte inferior da página, aguarde até a página carregar, em seguida, execute.-->
+    <script type="text/javascript" src="https://www.17track.net/externalcall.js"></script>
+    <script type="text/javascript">
+         function doTrack(num) {
+
+             if(num===""){
+                 alert("Enter your number.");
+                 return;
+             }
+             YQV5.trackSingle({
+                 //Necessário, especificar o ID contêiner do host de conteúdo.
+                 YQ_ContainerId:"YQContainer",
+                 //Opcional, especificar altura do resultado rastreamento, altura máxima é 800px, O padrão é 560px.
+                 YQ_Height:560,
+                 //Opcional, selecione a transportadora, auto-identificar por padrão.
+                 YQ_Fc:"0",
+                 //Opcional, especifique a linguá da UI, linguagem padrão é automaticamente detectada baseado nas configurações do navegador.
+                 YQ_Lang:"en",
+                 //Necessário, especifique o número necessário ao rastreamento.
+                 YQ_Num:num
+             });
+         }
+    </script>
+</head>
+<body>
+    <!--Recipiente para mostrar resultado de rastreamento.-->
+    <div id="YQContainer"></div>
+
+</body>
+</html>
